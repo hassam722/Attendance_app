@@ -1,0 +1,26 @@
+TO_CHECK_ = 0
+
+# ATTRIBUTES
+EMAIL_ =1
+PASSWORD_ = 2
+COMPANY_NAME_ =3
+NAME_ = 4
+MESSAGE_ = 5
+BALANCE_ = 6
+EMPLOY_ = 7
+PRESENT_ = 8
+ABSENT_  = 9
+
+# COMMANDS
+LOGIN_ =101
+CREATE_ = 102
+COMPANIES_DATA_ = 103
+COMPANIES_ = 104
+
+
+# MESSAGES
+MESSAGES = {
+    201:"Account Created",
+    202:"Account already Exists",
+    203:"Invalid Credentials."
+}
