@@ -10,17 +10,38 @@ BALANCE_ = 6
 EMPLOY_ = 7
 PRESENT_ = 8
 ABSENT_  = 9
+ROLE_ = 10
+ACCESS_= 11
+SALARY_ = 12
+DEDUCTION_ = 13
+USER_IMAGE_ = 14
+ID_ = 15
+MONTH_ =16
+YEAR_ = 17
+ATTENDANCE_PROPERTIES_ = 18
+PAYABLE_AMOUNT_ = 19
+DEDUCTED_AMOUNT_ = 20
+HOURS_ = 21
+DATE_ = 22
+CHECK_IN_ = 23
+CHECK_OUT_ = 24
+MONTH_DATA_ = 25
+GENDER_ = 26
 
 # COMMANDS
 LOGIN_ =101
 CREATE_ = 102
 COMPANIES_DATA_ = 103
 COMPANIES_ = 104
-
+COMPANY_DATA_ = 105
+EMPLOYEES_DATA_ = 106
+ATTENDANCE_DATA_ = 107
+ADD_EMPLOYEE_ = 108
 
 # MESSAGES
 MESSAGES = {
     201:"Account Created",
-    202:"Account already Exists",
-    203:"Invalid Credentials."
+    202:"already Exists",
+    203:"Invalid Credentials.",
+    204:"Added",
 }

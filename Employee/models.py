@@ -5,9 +5,10 @@ from Admin.models import COMPANY
 class EMPLOYEE(models.Model):
     id = models.IntegerField(primary_key= True,auto_created =True)
     name = models.TextField()
-    email= models.TextField()
+    email= models.TextField(unique = True)
     password = models.TextField()
-    designation = models.TextField()
+    role = models.TextField()
+    gender = models.TextField(null =True)
     access = models.TextField()
     salary = models.PositiveIntegerField()
     deduction = models.IntegerField()
